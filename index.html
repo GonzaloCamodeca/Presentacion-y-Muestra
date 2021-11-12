@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo HTML Y CSS</title>
+    <link rel="stylesheet" href="./css/Normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo"><h2 class="nav_title">Gonzalo Camodeca</h2></div>
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contacto</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Blog</a>
+                </li>
+                <img src="./img/closemenu.svg" class="nav__close" alt="closeIcon">
+            </ul>
+            <div class="nav__menu"><img src="./img/menuiconopen.svg" class="nav__img" alt="openMenus">
+            </div>
+        </nav>
+        <section class="hero__container container">
+            <h1 class="hero__title">Pagina de presentación</h1>
+            <p class="hero__paragraph">Aca van a aprender un poco sobre lenguajes de programacion y sobre mi</p>
+            <a href="#" class="cte">Comienza ahora</a>
+        </section>
+    </header>
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">¿Cuales son mis habilidades?</h2>
+            <p class="about__paragraph">Soy desarrollador web recibido de CoderHouse y tengo conocimientos en HTML,CSS,SASS,CEO y actualmente me encuentro capacitandome en JAVASCRIPT</p>
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./img/html.svg" alt="htmlIcon" class="about__icon">
+                    <h3 class="about__title">¿Que es HTML:5?</h3>
+                    <p class="about__paragraph">Toda pagina web cuenta con este tipo de estructura basica que es el esqueleto de una pagina web para luego aplicar los estilos y darle vida a la pagina</p>
+                </article>
+                <article class="about__icons">
+                    <img src="./img/css.svg" alt="cssIcon" class="about__icon">
+                    <h3 class="about__title">¿Que es CSS3?</h3>
+                    <p class="about__paragraph">El CSS podría definirse como un tipo de lenguaje que permite definir y crear la presentación de un documento ya estructurado y escrito en un lenguaje de marcado como puede ser HTML. Es decir, permite generar el diseño visual de páginas web e interfaces de usuario..</p>
+                </article>
+                <article class="about__icons">
+                    <img src="./img/javascript.svg" alt="javascript" class="about__icon">
+                    <h3 class="about__title">¿Que es JavaScript?</h3>
+                    <p class="about__paragraph">El JavaScript es un lenguaje de secuencias de comandos que te permite crear contenido de actualización dinámica, controlar multimedia, animar imágenes y prácticamente todo lo demás.(actualmente me encuentro aprendiendo este lenguaje).</p>
+                </article>
+            </div>
+        </section>
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledge__text">
+                    <h2 class="subtitle">Un poco sobre mi</h2>
+                    <p class="knowledge__paragraph">Soy Gonzalo Camodeca tengo 21 años y desde que recuerdo siempre tuve mucho interes por la tecnologia al punto que actualmente me estoy capacitando como diseñador industrial y programador front end. Desarrolle esta pagina con la intencion de presentarme y de mostrar un poco de lo que puedo hacer.</p>
+                    <a href="" class="cte">Informacion profesional completa aqui!</a>
+                </div>
+                <figure class="knowledge__picture">
+                    <img src="./img/Mifoto.jpeg" alt="miFoto" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+        <section class="price__container">
+            <h2 class="subtitle price">Obten el precio correcto</h2>
+            <div class="price__table">
+                <div class="price__element price__element--best">
+                    <p class="price__name">Hosting</p>
+                    <h3 class="price__price">30$ al mes</h3>
+                    <div class="price__items">
+                        <p class="price__features">CEO</p>
+                        <p class="price__features">SASS</p>
+                        <p class="price__features">Responsive</p>
+                    </div>
+                    <a href="#" class="price__cte">Contrateme ahora </a>
+                </div>
+                <div class="price__element">
+                    <p class="price__name">Completo</p>
+                    <h3 class="price__price">Free</h3>
+                    <div class="price__items">
+                        <p class="price__features">flexbox</p>
+                        <p class="price__features">Layout</p>
+                        <p class="price__features">Responsive</p>
+                    </div>
+                    <a href="#" class="price__cte">Contrateme ahora </a>
+                </div>
+                <div class="price__element">
+                    <p class="price__name">Animaciones</p>
+                    <h3 class="price__price">40$/mes</h3>
+                    <div class="price__items">
+                        <p class="price__features">Transitions</p>
+                        <p class="price__features">Animation</p>
+                        <p class="price__features">Render Website</p>
+                    </div>
+                    <a href="#" class="price__cte">Contrateme ahora </a>
+                </div>
+            </div>
+        </section>
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./img/arrow.svg" alt="arrow" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__text">
+                        <h2 class="subtitle">Comentarios de algunos estudiantes,<span class="testimony__course">Estudiante de JavaScript</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat sit illum, accusamus nesciunt harum tenetur eligendi doloribus error quidem at id, in vitae repellendus tempora eum vero quas perspiciatis culpa?</p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./img/Persona3.jpg" alt="face1" class="testimony__img">
+                    </figure>
+                </section>
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__text">
+                        <h2 class="subtitle">Comentarios de algunos estudiantes, <span class="testimony__course">Estudiante de CSS</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat sit illum, accusamus nesciunt harum quidem at id, in vitae repellendus tempora eum vero quas perspiciatis culpa?</p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./img/Persona.jpg" alt="face1" class="testimony__img">
+                    </figure>
+                </section>
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__text">
+                        <h2 class="subtitle">Comentarios de algunos estudiantes, <span class="testimony__course">Estudiante de PHYTON</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat sit illum, accusamus nesciunt harum tenetur eligendi doloribus error quidem at id, in vitae repellendus tempora eum vero quas perspiciatis culpa?</p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./img/Persona2.jpg" alt="face1" class="testimony__img">
+                    </figure>
+                </section>
+                <img src="./img/arrowback.svg" alt="arrowback" class="testimony__arrow" id="next">
+            </div>
+        </section>
+    </main>
+    <script src="./js/slider.js"></script>
+</body>
+</html>
