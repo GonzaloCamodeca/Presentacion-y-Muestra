@@ -380,6 +380,7 @@ margin-right: 16px;
   border: none;
   font-size: 1rem;
   color: #fff;
+  border-radius: 6px;
 }
 .footer__copy{
   --padding-container: 30px 0;
