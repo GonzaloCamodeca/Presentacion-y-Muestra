@@ -293,6 +293,7 @@ pointer-events: none;
   overflow: hidden;
 }
 .questions__title{
+  text-align: left;
   display: flex;
   font-size: 20px;
   padding: 30px 0 30px;
@@ -381,6 +382,7 @@ margin-right: 16px;
   font-size: 1rem;
   color: #fff;
   border-radius: 6px;
+  overflow: hidden;
 }
 .footer__copy{
   --padding-container: 30px 0;
@@ -477,6 +479,42 @@ margin-right: 16px;
   width: 100%;
   justify-content: space-evenly;
 }
+.footer__input{
+  flex: 1;
 }
-
+}
+@media (max-width:600px){
+  .hero__title{
+    font-size: 2rem;
+  }
+  .hero__paragraph{
+    font-size: 1rem;
+  }
+  .subtitle{
+    font-size: 1.8rem;
+  }
+  .price__element{
+    width: 90%;
+    padding: 40px;
+  }
+  .price__price{
+    font-size: 2rem;
+  }
+  .testimony{
+    --padding-container:60px 0;
+  }
+  .testimony__container{
+    grid-template-columns: 28px 1fr 28px;
+    gap: .9em;
+  }
+  .testimony__arrow{
+    width: 100%;
+  }
+  .testimony__course{
+    margin-top: 15px;
+  }
+  .questions__title{
+    font-size: 1rem;
+  }
+}
   
