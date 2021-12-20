@@ -516,5 +516,26 @@ margin-right: 16px;
   .questions__title{
     font-size: 1rem;
   }
+  .footer__title{
+    justify-self: start;
+  }
+  .footer__inputs{
+    flex-wrap: wrap;
+  }
+  .footer__input{
+    flex-basis: 100%;
+    margin: 0%;
+    margin-bottom: 16px;
+  }
+  .footer__submit{
+    margin-right: auto;
+  }
+  .nav--footer{
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  .nav__link--footer{
+    justify-content: space-between;
+  }
 }
   
